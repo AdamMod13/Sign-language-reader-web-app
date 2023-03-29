@@ -9,14 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/control_utils": "^0.6.1675466023",
+    "@mediapipe/control_utils_3d": "^0.3.1675466062",
+    "@mediapipe/drawing_utils": "^0.3.1675466124",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@mediapipe/pose": "^0.5.1675469404",
+    "@mediapipe/tasks-vision": "^0.1.0-alpha-7",
     "@types/node": "18.15.10",
     "@types/react": "18.0.30",
     "@types/react-dom": "18.0.11",
+    "device-detector-js": "^3.0.3",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-fps": "^1.0.6",
+    "react-helmet": "^6.1.0",
+    "react-webcam": "^7.0.1",
+    "three": "^0.150.1",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.6",
+    "@types/three": "^0.150.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
